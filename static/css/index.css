@@ -1,0 +1,67 @@
+/* Основной CSS файл, описывает стили основного тела страницы и блока main (отображение новостей/новости в случае отображения одиночного объекта) */
+
+/* Описание стилей тела страницы */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft Sans Serif';
+}
+
+body{
+    background-color: #edefeb;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24px;
+}
+
+.container{
+    padding: 20px;
+    padding-bottom: 10px;
+    width: 1000px;
+    border: 1px solid #caccc9;
+    background-color: white;
+}
+
+/* Описание стилей блока main */
+
+.main{
+    padding: 25px 0 25px 0;
+    border: 1px dotted #832b5b;
+    border-left: 0;
+    border-right: 0;
+}
+
+.main p{
+    margin-bottom: 10px;
+}
+
+.main p:last-child{
+    margin: 0;
+}
+
+.block{
+    margin-bottom: 18px;
+}
+
+.block:last-child{
+    margin-bottom: 0;
+}
+
+.block-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.block-desc__date{
+    padding: 5px 6px;
+    background-color: #832b5b;
+    color:#fff;
+}
+
+.block-desc__title a{
+    color: #0006f2;
+    margin-left: 5px;
+    text-decoration-style: solid;
+}

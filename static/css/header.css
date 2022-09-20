@@ -1,0 +1,7 @@
+/* Описание стилей хэдера (выше основного блока). */
+h1{
+    margin: 0;
+    padding: 0 2px 0 2px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
